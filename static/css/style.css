@@ -1,0 +1,32 @@
+.title {
+  text-align: center;
+  margin-top: 250px;
+}
+
+.form {
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+input[type="submit"],
+button,
+[aria-label] {
+  cursor: pointer;
+}
+#edit-box {
+  display: none;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+td {
+  background-color: whitesmoke;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.to-do {
+  background: transparent !important;
+}
