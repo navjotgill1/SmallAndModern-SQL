@@ -14,7 +14,7 @@ db = mysql.connector.connect(
 mycursor = db.cursor()
 
 #comment out the code in the next lines for the first time, to create the database
-
+#mycursor.execute("CREATE DATABASE testdatabase")
 #mycursor.execute("CREATE TABLE film(titel varchar(50))")
 #db.commit()
 
@@ -46,6 +46,7 @@ def getFilms():
     for row in result:
         print(row)
 
+       
 add("wall-street")
 getFilms()
 #add("dune")
